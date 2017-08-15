@@ -1,0 +1,188 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+  background: #053049;
+  width: 100%;
+  float: left;
+}
+
+h1 {
+  color: white;
+}
+
+#searchbar {
+
+}
+
+#mainbar {
+  background: #efefee;
+  width: 75%;
+  float: left;
+
+}
+
+#blogpost {
+
+}
+
+#sidebar {
+  background: #efefee;
+  width: 25%;
+  float: left;
+}
+
+h2 {
+
+}
+
+#buttonbox {
+  background: #f9e42e;
+  width: 100%;
+  float: left;
+}
+
+footer {
+  background: #121111;
+  width: 100%;
+  float: left;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.navigation {
+  color: #f9e42e;
+}
+
+.bloghead {
+
+}
+
+.blogphoto {
+
+}
+
+.blogtext {
+
+}
+
+.readmore {
+  text-align: right;
+}
+
+.categories {
+
+}
+
+.sidebarhead {
+
+}
+
+.categorieslist {
+
+}
+
+.aboutrelaxr {
+
+}
+
+.learnmore {
+  text-align: left;
+}
+
+.ad {
+
+}
+
+.signup {
+  text-align: center;
+}
+
+.logo {
+  color: #f9e42e;
+  text-align: center;
+}
+
+.socialmedia {
+  text-align: center
+}
+
+.twitter {
+
+}
+
+.facebook {
+
+}
+
+.footerinfo {
+  color: white;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
