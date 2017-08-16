@@ -84,7 +84,7 @@ h1 {
 }
 
 #blogpost {
-
+  border-bottom: solid black 1px;
 }
 
 #sidebar {
@@ -122,7 +122,14 @@ footer {
 }
 
 .blogphoto {
+  position: relative;
+  width: 100%;
+}
 
+img {
+  display: block;
+  position: relative;
+  width: 100%;
 }
 
 .blogtext {
@@ -171,11 +178,11 @@ footer {
 }
 
 .twitter {
-
+  width: 25px;
 }
 
 .facebook {
-
+  width: 10px;
 }
 
 .footerinfo {
