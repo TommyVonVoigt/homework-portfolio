@@ -49,6 +49,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
+     background: #efefee;
 }
 
 
@@ -68,12 +69,24 @@ header {
   float: left;
 }
 
+#main {
+  background-color: #efefee;
+}
+
 h1 {
   color: white;
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 #searchbar {
-
+  float: right;
+  margin-top: 35px;
+  color: white;
 }
 
 #mainbar {
@@ -85,12 +98,17 @@ h1 {
 
 #blogpost {
   border-bottom: solid black 1px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 30px;
 }
 
 #sidebar {
-  background: #efefee;
   width: 25%;
   float: left;
+  background: #efefee;
+  padding-right: 20px;
 }
 
 h2 {
@@ -101,12 +119,15 @@ h2 {
   background: #f9e42e;
   width: 100%;
   float: left;
+  text-align: center;
+  padding: 10px;
 }
 
 footer {
   background: #121111;
   width: 100%;
   float: left;
+  text-align: center;
 }
 
 /******************************************
@@ -114,14 +135,22 @@ footer {
 /*******************************************/
 
 .navigation {
-  color: #f9e42e;
+  float: left;
+  font-size: 20px;
+}
+
+li {
+  padding-right: 20px;
 }
 
 .bloghead {
-
+  color: #053049;
+  font-size: 30px;
+  line-height: 32px;
 }
 
 .blogphoto {
+  margin-top: 10px;
   position: relative;
   width: 100%;
 }
@@ -133,63 +162,137 @@ img {
 }
 
 .blogtext {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #053049;
+}
 
+.readmorebox {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .readmore {
   text-align: right;
+  color: #053049;
+  font-size: 18px;
+  font-weight: bold;  
 }
 
 .categories {
-
 }
 
 .sidebarhead {
-
+  margin-top: 50px;
+  font-weight: bold;
+  color: #053049;
+  font-size: 20px;
 }
 
 .categorieslist {
+  font-size: 15px;
+  color: #053049;
+}
 
+.cat {
+  color: #053049;
 }
 
 .aboutrelaxr {
 
 }
 
+.sidetext {
+  font-size: 15px;
+  color: #053049;
+  margin-right: 20px;
+}
+
 .learnmore {
   text-align: left;
+  margin-top: 10px;
+}
+
+.learn {
+  font-size: 15px;
+  color: #053049;
+  font-weight: bold;
 }
 
 .ad {
-
+  margin-top: 20px;
+  background-color: #efefee;
+  margin-bottom: auto;
 }
 
 .signup {
   text-align: center;
+  background-color: #053049;
+  padding: 10px;
+  width: 20%;
+  margin: auto;
+
+}
+
+.sign {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .logo {
   color: #f9e42e;
   text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 30px;
+  float: left;
+  width: 100%;
 }
 
 .socialmedia {
-  text-align: center
+  width: 100%;
+  margin-top: 50px;
+  float: left;
+  text-align: center;
+}
+
+.social {
+  margin: auto;
+  display: inline-block;
 }
 
 .twitter {
   width: 25px;
+  margin: 10px;
+  float: left;
 }
 
 .facebook {
   width: 10px;
+  margin: 10px;
+  float: left;
 }
 
 .footerinfo {
   color: white;
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  float: left;
+  width: 100%;
 }
 
 a {
   text-decoration: none;
+  color: yellow;
+}
+
+.search {
+  color: white;
+  float: left;
+
 }
